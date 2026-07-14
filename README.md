@@ -30,7 +30,7 @@ Example URL:
 https://conguyen38.github.io/goodchoice/image-helper/privacy/
 ```
 
-Use that exact public HTTPS URL in the extension's Chrome Web Store Privacy Policy URL field.
+Use that exact public HTTPS URL in the extension store's Privacy Policy URL field.
 
 ## Important
 
