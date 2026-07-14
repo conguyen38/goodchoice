@@ -7,7 +7,10 @@ This folder is the publishing source for `https://conguyen38.github.io/goodchoic
 ```text
 /
 ├── index.html
-└── seo-lens/
+├── seo-lens/
+│   └── privacy/
+│       └── index.html
+└── snapfull/
     └── privacy/
         └── index.html
 ```
