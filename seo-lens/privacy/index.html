@@ -169,18 +169,18 @@
 
   <main>
     <article>
-      <span class="effective">Effective July 13, 2026</span>
+      <span class="effective">Effective July 15, 2026</span>
 
       <h2>Overview</h2>
-      <p>SEO Lens is an on-page SEO and GEO analysis browser extension. This Privacy Policy explains what information the extension handles, why it is needed, and how it is protected.</p>
+      <p>SEO Lens is an on-page SEO and GEO analysis browser extension. This Privacy Policy explains the limited, user-initiated local processing required to generate a report and how that information is protected.</p>
 
       <div class="summary">
         <strong>Privacy summary</strong>
-        <p>SEO Lens performs analysis locally in the browser. It does not require an account, include analytics or advertising trackers, sell user data, or send analyzed webpage content to a developer-operated server.</p>
+        <p>Analysis starts only after the user clicks SEO Lens on the active tab. The extension does not continuously monitor browsing, request broad host permissions, upload analyzed page content, or give the developer access to page reports. It includes no account system, telemetry, analytics SDK, advertising tracker, or remote executable code.</p>
       </div>
 
-      <h2>Information handled by the extension</h2>
-      <p>SEO Lens accesses a webpage only after the user clicks the extension on the active tab. To produce the requested report, the extension may process:</p>
+      <h2>Local page-content processing</h2>
+      <p>SEO Lens receives temporary access to a webpage only after the user clicks the extension on the active tab. To produce the requested report, the extension may process:</p>
       <ul>
         <li>The current page URL, title, metadata, visible text, headings, keywords, and language.</li>
         <li>Links, image URLs, image dimensions, and alternative text.</li>
@@ -188,20 +188,21 @@
         <li>Other on-page SEO and GEO signals required to generate the report.</li>
       </ul>
       <p>The extension may request the public <code>robots.txt</code>, <code>sitemap.xml</code>, and <code>llms.txt</code> files from the same website being analyzed. Social preview images may be loaded directly from the image URL declared by that webpage.</p>
+      <p>This processing happens on the user's device. SEO Lens does not operate a service that receives analyzed page content or report results.</p>
 
       <h2>How information is used</h2>
-      <p>Website content is processed solely to display the SEO and GEO report requested by the user. Analysis is performed locally in the user's browser. SEO Lens does not transmit analyzed webpage content, report results, or browsing activity to the developer or to a developer-operated server.</p>
+      <p>Website content is processed solely to display the SEO and GEO report requested by the user. Analysis is performed locally in the user's browser. SEO Lens does not transmit analyzed webpage content, browsing activity, URLs, or report results to the developer, to a developer-operated server, or to an analytics provider.</p>
 
       <h2>Storage and retention</h2>
-      <p>SEO Lens stores only the user's selected interface language in the browser's local extension storage. Analyzed webpage data and report results remain in memory while the extension popup is open and are discarded when it closes. The language preference remains on the device until extension data is cleared or SEO Lens is uninstalled.</p>
+      <p>Analyzed webpage information remains in memory only while the extension popup is open and is discarded when it closes. SEO Lens stores only the selected interface language in the browser's local extension storage. That preference remains on the device until extension data is cleared or SEO Lens is uninstalled.</p>
 
       <h2>Browser extension permissions</h2>
       <ul>
-        <li><code>activeTab</code> provides temporary access to the page on which the user invokes SEO Lens.</li>
-        <li><code>scripting</code> runs the packaged analysis function in that active tab after the user invokes the extension.</li>
+        <li><code>activeTab</code> provides temporary access only to the page on which the user invokes SEO Lens. It does not provide continuous background access to browsing activity.</li>
+        <li><code>scripting</code> runs the packaged local analysis function in that active tab after the user invokes the extension. No remote code is downloaded or executed.</li>
         <li><code>storage</code> saves only the selected interface language on the user's device.</li>
       </ul>
-      <p>SEO Lens does not use remote executable code. All executable logic is included in the extension package.</p>
+      <p>SEO Lens does not request broad <code>host_permissions</code>. All executable logic is included in the extension package.</p>
 
       <h2>Sharing, sale, and advertising</h2>
       <p>SEO Lens does not sell, rent, share, or transfer user data to third parties for advertising, profiling, creditworthiness, lending, or any purpose unrelated to its single purpose. The extension includes no analytics, advertising, or tracking SDK.</p>
