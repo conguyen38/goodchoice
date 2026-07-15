@@ -177,7 +177,7 @@
 
       <div class="summary">
         <strong>Privacy summary</strong>
-        <p>Image discovery, conversion, clipboard preparation, and ZIP creation run locally in the browser. Local Image Saver does not require an account, upload images or browsing data to a developer-operated server, include analytics or advertising trackers, or sell or transfer user data.</p>
+        <p>Image discovery, conversion, clipboard preparation, and ZIP creation run locally in the browser. Local Image Saver does not require an account, send images or browsing data to a developer-operated server, include analytics or advertising trackers, or sell or transfer user data.</p>
       </div>
 
       <h2>Information handled by the extension</h2>
@@ -187,7 +187,7 @@
         <li>Image files fetched directly from the website or image host when conversion, copying, or ZIP creation is requested.</li>
         <li>User-selected download format, quality, filters, language, subfolder, and related extension preferences.</li>
       </ul>
-      <p>The extension does not collect or retain general browsing history, account credentials, form contents, or unrelated webpage content.</p>
+      <p>This limited website content is handled temporarily on the user's device. It is not collected by, transmitted to, stored by, sold by, or shared with Good Choice. The extension does not retain general browsing history, account credentials, form contents, or unrelated webpage content.</p>
 
       <h2>How information is used</h2>
       <p>Website and image information is used only to display image choices and complete the action requested by the user. The extension does not monitor tabs in the background. A request to an image host occurs only when needed to retrieve the selected image; that request goes directly from the browser to the website or content-delivery host, not through a Good Choice server.</p>
@@ -200,7 +200,7 @@
         <li><code>activeTab</code> provides temporary access to the tab where the user opens Local Image Saver.</li>
         <li><code>scripting</code> runs packaged image-discovery logic in that active tab after the user opens the extension.</li>
         <li><code>contextMenus</code> adds user-invoked commands for saving an image in its original format or converting it to PNG, JPG, or WebP.</li>
-        <li><code>downloads</code> saves files only after the user requests a single-image or batch download.</li>
+        <li><code>downloads</code> is an optional runtime permission requested only when the user initiates a save or download action. If denied or revoked, scanning and copying remain available, but file downloads cannot start until permission is granted.</li>
         <li><code>clipboardWrite</code> writes a user-selected image to the system clipboard only after the user clicks Copy.</li>
         <li><code>offscreen</code> provides a hidden local extension document for image conversion and ZIP creation.</li>
         <li><code>storage</code> saves extension-only preferences on the user's device.</li>
@@ -217,7 +217,7 @@
       <p>When distributed through the Chrome Web Store or Microsoft Edge Add-ons, Local Image Saver uses information received from browser extension APIs only to provide its user-facing image features. The use of information received from browser APIs complies with the Chrome Web Store User Data Policy, including its Limited Use requirements. User data is not used or transferred for advertising, creditworthiness, lending, or any unrelated purpose.</p>
 
       <h2>User choices</h2>
-      <p>Users control when a page is scanned, which images are selected, whether optional image-host access is granted, and whether an image is copied or downloaded. Users can revoke granted host access, clear extension preferences, or remove all extension data by uninstalling Local Image Saver.</p>
+      <p>Users control when a page is scanned, which images are selected, whether optional image-host and download access is granted, and whether an image is copied or downloaded. Users can deny or revoke optional permissions, clear extension preferences, or remove all extension data by uninstalling Local Image Saver.</p>
 
       <h2>Changes to this policy</h2>
       <p>If this policy or the extension's data practices materially change, the updated policy will be published on this page with a revised effective date. Applicable browser-store disclosures will also be updated when required.</p>
