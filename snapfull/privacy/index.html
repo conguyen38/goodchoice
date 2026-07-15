@@ -202,7 +202,7 @@
       <ul>
         <li><code>activeTab</code> provides temporary access to the tab on which the user invokes SnapFull.</li>
         <li><code>scripting</code> runs the packaged capture script in that tab to measure and scroll the page, temporarily prevent repeated sticky elements, and restore the page after capture.</li>
-        <li><code>downloads</code> saves an exported image only after the user chooses to download it.</li>
+        <li>Optional <code>downloads</code> access is requested only after the user chooses to download an exported image. If it is not granted, SnapFull uses a normal browser download instead.</li>
         <li><code>storage</code> saves extension-only preferences and local state on the user's device.</li>
         <li><code>unlimitedStorage</code> allows user-created full-page captures to remain in the on-device library without a small extension storage quota.</li>
       </ul>
