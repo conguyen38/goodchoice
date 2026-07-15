@@ -10,7 +10,10 @@ This folder is the publishing source for `https://conguyen38.github.io/goodchoic
 ├── seo-lens/
 │   └── privacy/
 │       └── index.html
-└── snapfull/
+├── snapfull/
+│   └── privacy/
+│       └── index.html
+└── local-image-saver/
     └── privacy/
         └── index.html
 ```
